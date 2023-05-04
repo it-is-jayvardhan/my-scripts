@@ -1,8 +1,8 @@
-sudo apt install awesome xterm thunar terminator
-sudo apt install nitrogen picom -y
+sudo pacman -Sy awesome thunar terminator
+
 echo "select wallpaper to be applied"
-nitrogen
-nitrogen --restore
+
+
 sudo mkdir ~/.config/awesome
 cp rc.lua ~/.config/awesome/
 awesome -k
